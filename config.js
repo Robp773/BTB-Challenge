@@ -1,10 +1,5 @@
-// exports.DATABASE_URL = process.env.DATABASE_URL ||
-//     global.DATABASE_URL ||
-//     'mongodb://localhost/btb-db';
-
 let API_BASE_URL;
 if (process.env.NODE_ENV === 'production') {
-    console.log('productttititititon')
     API_BASE_URL = 'https://btb-api.herokuapp.com/';
 } 
 
