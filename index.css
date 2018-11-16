@@ -1,0 +1,42 @@
+#barChart {
+    width: 100vw;
+    height: 75vh;
+}
+
+
+.barParent {
+    text-align: center;
+}
+
+.barBtnParent {
+    margin: 20px auto;
+}
+
+.barChartHeader {
+    font-size: 45px;
+    margin: 20px auto;
+}
+
+.barBtn {
+    min-width: fit-content;
+    width: 7%;
+    padding: 10px 13px;
+    font-size: 25px;
+    border: 1px solid transparent;
+    box-shadow: 0 5px 15px gray;
+    margin: auto 5px;
+    transition: .1s all;
+    outline: none;
+}
+
+.barBtn:hover {
+    background: lightgreen;
+}
+
+.barBtn:active {
+    box-shadow: none;
+}
+
+.selected {
+    background: lightgreen;
+}
